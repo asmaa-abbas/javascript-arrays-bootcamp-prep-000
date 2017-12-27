@@ -1,6 +1,6 @@
 let chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
-const addElementToBeginningOfArray = (arr, ele)  => {
+function addElementToBeginningOfArray (arr, ele) {
   return arr.unshift(ele);
 };
 
