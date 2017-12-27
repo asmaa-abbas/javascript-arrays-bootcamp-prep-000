@@ -4,7 +4,7 @@ function addElementToBeginningOfArray (arr, ele) {
   return [ele, ...arr];
 }
 
-const destructivelyAddElementToBeginningOfArray = (arr, ele) => {
+consdestructivelyAddElementToBeginningOfArray = (arr, ele) => {
   arr.unshift(ele);
   return arr;
 };
